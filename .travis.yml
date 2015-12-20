@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '4'
+after_success:
+- test ${TRAVIS_TAG} && npm run package
+deploy:
+  provider: releases
+  api_key:
+    secure: 3FWmRv3QeBih0u0h3Af0sELOzyMfP2g+uvjVRhNWBQiK3xiYFwbIpU1/TeNAytICtmsvfYYTX1aPeko8BFfx3i13C1rp1dup6xpRHqROITKAaJnx290cwdLF57Eous6mjTMwYTJ/h8p4sr4DgcYFfCKTnd7f2lqoYwLI21SIhbvxTDirirtzCDcSQ4+qEea5l0wAb0PoBIx5rLmf83Up/76AdcTgZIGXHdsRH4FnVPTYL5RB8Mu8Zup786J1ZrQG7yHN+twZcSzGmd5r8wiTGyHDrpub1SWavBrD7FXTEIWTyChcNIbiVwbvMM9aKl1+IVm6WieEy4zW5YFz2x5pOlHk6XR8FksM2gmki9VFGe/hfSymn0zCkcwEbt81dMPPLXasL9HOmmVHBUmWcEAQdteHG9TInSqiX7oPl6NnjNekZTNB1cw2YOu3zpajMartqPj8MBlkZFktzfT1pIoSkNlmfpuK/hEX/nWBGKJiBeYno7WEr5UZb1+F2pV5NixJzeGtWqiW//2f1wonRnew7e7P2OIklkPfRWrfe8Wc5yDVOaiyciCibGuLMAGUy7gnhgeF6mhzMM0YIa/3FhlLp9ldSKNE2fVv6L9a4hSY/XE0fGnMuek8uHmiGKcavJjTF1K6RiGzTdV5vAD2AqlgIwTgAJZQlOu361Gxr03d1a4=
+  file: ./tubehead-darwin-x64.zip
+  on:
+    repo: makotot/tubehead
+    all_branches: true
+    tags: true

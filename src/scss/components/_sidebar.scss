@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+.sidebar  {
+
+  $base-color: #f77171;
+
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -340px;
+  background-color: $base-color;
+  color: #fff;
+  width: 340px;
+  min-height: 500px;
+  z-index: 4;
+  transition: 0.1s;
+
+  &__nav  {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  &__nav-item {
+    display: table-cell;
+    height: 40px;
+    vertical-align: middle;
+  }
+
+  &__main {
+  }
+
+  &__overlay  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  &__headline {
+    margin: 0;
+    color: #fff;
+    padding: 30px 20px 10px;
+  }
+
+  &__headline-inner {
+    margin: 0 0 0 10px;
+  }
+
+  &__headline + &__list {
+    margin: 10px 0 0;
+  }
+
+  &__headline + &__box {
+    margin: 10px 0 0;
+  }
+
+  &__box  {
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 10px 20px;
+  }
+
+  &__list {
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    padding: 10px 0;
+  }
+
+  &__list-item  {
+  }
+
+  &__list-item-link {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &:hover {
+      background-color: #333;
+      color: $base-color;
+      font-weight: bold;
+    }
+  }
+
+  &__btn  {
+    padding: 10px 0;
+  }
+
+  &__btn-inner  {
+    padding: 20px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #333;
+      color: $base-color;
+    }
+  }
+
+  &__btn-label  {
+    margin-left: 10px;
+  }
+}

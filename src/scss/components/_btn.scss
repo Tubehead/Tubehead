@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.btn  {
+  $color-red: #FF5252;
+  $color-white: #fff;
+
+  display: block;
+  background-color: $color-white;
+  color: $color-red;
+  cursor: pointer;
+  text-decoration: none;
+
+  &--reversal {
+    background-color: $color-red;
+    color: $color-white;
+  }
+
+  &--bar  {
+
+    &:hover {
+      color: #333;
+    }
+  }
+}

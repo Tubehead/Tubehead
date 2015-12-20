@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "extends": "eslint-config-makotot",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "semi": [0],
+
+    "react/jsx-no-undef": [1],
+    "react/wrap-multilines": [1],
+    "react/no-multi-comp": [2],
+    "react/no-danger": [1],
+    "react/jsx-pascal-case": [2],
+    "react/jsx-curly-spacing": [2, "always"],
+    "react/self-closing-comp": [1],
+    "react/wrap-multilines": [2]
+  }
+}

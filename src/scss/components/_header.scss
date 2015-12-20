@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.header {
+  position: fixed;
+  top: 0;
+  display: table;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  z-index: 2;
+
+  &__column {
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+  }
+
+  &__column + &__column {
+    padding: 0 0 0 10px;
+  }
+}
