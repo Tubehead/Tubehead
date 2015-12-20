@@ -8,6 +8,13 @@
 
 <img src="./tubehead-app.png" height="100" alt="tubehead" />
 
+## Screenshot
+
+<img src="./screenshot.png" alt="tubehead" />
+
+## Downloads
+
+Latest version of tubehead can be download from [the release page](https://github.com/makotot/tubehead/releases).
 
 ## License
 
