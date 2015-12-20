@@ -10,7 +10,7 @@
 
 ## Screenshot
 
-<img src="./screenshot.png" alt="tubehead" />
+<img src="./screenshot.png" width="300" alt="tubehead" />
 
 ## Downloads
 
