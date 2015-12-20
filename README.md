@@ -14,7 +14,7 @@
 
 ## Downloads
 
-Latest version of tubehead can be download from [the release page](https://github.com/makotot/tubehead/releases).
+Latest version of tubehead can be download from [here](https://github.com/makotot/tubehead/releases).
 
 ## License
 
