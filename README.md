@@ -6,7 +6,7 @@
 
 > YouTube music player as OSX app
 
-<img src="./tubehead-app.png" height="200" alt="tubehead" />
+<img src="./tubehead-app.png" height="100" alt="tubehead" />
 
 
 ## License
