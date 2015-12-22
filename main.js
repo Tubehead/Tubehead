@@ -2,7 +2,8 @@ var isDevelopment = process.env.NODE_ENV === 'development';
 
 var app = require('app'),
   BrowserWindow = require('browser-window'),
-  Tray = require('tray');
+  Tray = require('tray'),
+  Menu = require('menu');
 
 var connect;
 
@@ -74,8 +75,8 @@ app.on('ready', function () {
 
   if (isDevelopment) {
     connect.create(appIcon.window);
-    appIcon.window.openDevTools();
   }
+  appIcon.window.openDevTools();
 
   appIcon.window
     .on('closed', function () {
@@ -89,4 +90,46 @@ app.on('ready', function () {
     .on('click', function (e, bounds) {
       toggleWindow(appIcon.window, bounds);
     });
+
+  var template = [
+    {
+      label: 'Application',
+      submenu: [
+        {
+          label: 'Quit',
+          accelerator: 'Command+Q',
+          click: function () {
+            app.quit();
+          }
+        }
+      ]
+    },
+    {
+      label: 'Edit',
+      submenu: [
+        {
+          label: 'Copy',
+          accelerator: 'CmdOrCtrl+C',
+          selector: 'copy:'
+        },
+        {
+          label: 'Cut',
+          accelerator: 'CmdOrCtrl+X',
+          selector: 'cut:'
+        },
+        {
+          label: 'Paste',
+          accelerator: 'CmdOrCtrl+V',
+          selector: 'paste:'
+        },
+        {
+          label: 'Select All',
+          accelerator: 'CmdOrCtrl+A',
+          selector: 'selectAll:'
+        }
+      ]
+    }
+  ]
+
+  var menu = Menu.setApplicationMenu(Menu.buildFromTemplate(template))
 });
