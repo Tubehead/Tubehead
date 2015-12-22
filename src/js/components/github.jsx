@@ -11,7 +11,7 @@ export class Github extends React.Component {
 
   handleClick (e) {
     e.preventDefault()
-    shell.openExternal('https://github.com/makotot/electron-sandbox')
+    shell.openExternal('https://github.com/makotot/tubehead')
   }
 
   render () {
