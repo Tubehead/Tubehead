@@ -34,10 +34,21 @@ export class SearchBox extends React.Component {
       return
     }
 
+    this.setState({
+      value: query
+    })
     PlayListAction.updateList(query)
   }
 
+  handleChange (e) {
+    this.setState({
+      value: e.target.value
+    })
+  }
+
   render () {
+    const value = this.state.value
+
     return (
       <div className="search-box">
 
@@ -48,7 +59,7 @@ export class SearchBox extends React.Component {
               size='2x'
               name='search'
             />
-            <input type="text" className="search-box__field" ref="searchInput" placeholder="Search" />
+            <input type="text" value={ value } className="search-box__field" ref="searchInput" placeholder="Search" onChange={ this.handleChange.bind(this) } />
           </label>
         </form>
 
