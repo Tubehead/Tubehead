@@ -75,8 +75,8 @@ app.on('ready', function () {
 
   if (isDevelopment) {
     connect.create(appIcon.window);
+    appIcon.window.openDevTools();
   }
-  appIcon.window.openDevTools();
 
   appIcon.window
     .on('closed', function () {
