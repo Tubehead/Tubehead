@@ -1,6 +1,6 @@
 {
   "name": "tubehead",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "YouTube music player as OSX app",
   "main": "./main.js",
   "scripts": {
