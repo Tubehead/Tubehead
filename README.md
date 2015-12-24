@@ -12,9 +12,16 @@
 
 <img src="./screenshot.png" width="300" alt="Tubehead" />
 
-## Downloads
+## Download
 
 Latest version of this app for osx can be download from [here](https://github.com/makotot/tubehead/releases).
+
+## Develoment
+
+```sh
+$ npm install
+$ npm run start
+```
 
 ## License
 
