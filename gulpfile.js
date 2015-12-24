@@ -92,7 +92,7 @@ gulp.task('package', ['build'], function (done) {
   packager({
     dir: './',
     out: './',
-    name: 'tubehead',
+    name: 'Tubehead',
     arch: 'x64',
     platform: 'darwin',
     version: '0.36.0',

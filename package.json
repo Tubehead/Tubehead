@@ -1,7 +1,7 @@
 {
-  "name": "tubehead",
+  "name": "Tubehead",
   "version": "0.2.2",
-  "description": "YouTube music player as OSX app",
+  "description": "YouTube music player as OSX app hardly inspired by musictonic",
   "main": "./main.js",
   "scripts": {
     "start": "NODE_ENV=development gulp serve",
