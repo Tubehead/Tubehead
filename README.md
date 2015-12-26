@@ -1,8 +1,8 @@
 # Tubehead
 
-[![travis](http://img.shields.io/travis/makotot/tubehead.svg?style=flat-square)](https://travis-ci.org/makotot/tubehead)
-[![dependencies](http://img.shields.io/david/makotot/tubehead.svg?style=flat-square)](https://github.com/makotot/tubehead)
-[![devDependencies](http://img.shields.io/david/dev/makotot/tubehead.svg?style=flat-square)](https://github.com/makotot/tubehead)
+[![travis](http://img.shields.io/travis/makotot/Tubehead.svg?style=flat-square)](https://travis-ci.org/makotot/Tubehead)
+[![dependencies](http://img.shields.io/david/makotot/Tubehead.svg?style=flat-square)](https://github.com/makotot/Tubehead)
+[![devDependencies](http://img.shields.io/david/dev/makotot/Tubehead.svg?style=flat-square)](https://github.com/makotot/Tubehead)
 
 > YouTube music player as OSX app hardly inspired by [musictonic](http://musictonic.com/)
 
@@ -14,7 +14,7 @@
 
 ## Download
 
-Latest version of this app for osx can be download from [here](https://github.com/makotot/tubehead/releases).
+Latest version of this app for osx can be download from [here](https://github.com/makotot/Tubehead/releases).
 
 ## Develoment
 
