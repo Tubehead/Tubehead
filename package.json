@@ -1,6 +1,6 @@
 {
   "name": "Tubehead",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "YouTube music player as OSX app hardly inspired by musictonic",
   "main": "./main.js",
   "scripts": {
