@@ -1,6 +1,6 @@
 {
   "name": "Tubehead",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "YouTube music player as OSX app hardly inspired by musictonic",
   "main": "./main.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "dev": "NODE_ENV=development electron .",
     "test": "gulp lint",
     "build": "gulp build",
-    "package": "gulp package && zip tubehead-darwin-x64.zip -r ./tubehead-darwin-x64"
+    "package": "gulp package && zip Tubehead-darwin-x64.zip -r ./Tubehead-darwin-x64"
   },
   "author": "makotot",
   "license": "MIT",
