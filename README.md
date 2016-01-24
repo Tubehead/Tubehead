@@ -14,7 +14,7 @@
 
 ## Download
 
-Latest version of this app for osx can download from [here](https://github.com/makotot/Tubehead/releases).
+Latest version of this app for osx can download from [here](https://github.com/Tubehead/Tubehead/releases).
 
 ## Develoment
 
