@@ -16,6 +16,7 @@
     right: 10px;
     margin-top: -15px;
     color: #666;
+    cursor: pointer;
   }
 
   &__field  {
@@ -31,9 +32,9 @@
     font-size: 20px;
 
     &:focus {
-      background-color: #f1f1f1;
+      background-color: #fff;
       border-bottom: 2px solid #f77171;
-      color: #444;
+      color: #555;
     }
   }
 }
