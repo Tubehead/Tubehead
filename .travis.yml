@@ -9,6 +9,6 @@ deploy:
     secure: LOnk5LEG03obOFFc2wt7wW3d+lZV8mGQv3/2sH+MfU3yLXRAqkck2GvV7nV7T+ihAXQ+r/9mI5i6Ht6FObU9E7zDDrJe0t+yGhgqfkQn8xxXcKw3Hib/ENKh/oYxUWxi5skSZWhKKU64Nk7MSokuk8lcDar7HBYpryq+5Tig6YQ2WkP8/ZLGflnQo2ibWHVjhekrH05O4AkfT7EmhiEjDUWUMcyjjA3ZS9OhfgQmR7oFUd4CAMeG85mUg7qBOuxgqqrfLn80sLT4I8cnF5HDFqYcVrQxFIV78TsJHL8cp6MqXOyWd/xPzHeSmgFacdhqvknShkqlRQQl+4AUgkVYy1j/0dEyEnJQaHJIcYGako4Q73mIhggrD+boVEFRNZeT+uquDHtvUGnClQ1aHwptcQnY5hq0oJIXjxk874NSMF4Vbhalu1UriVfeemGq7bcSmDknS4rpklnGNlS4lQVkL5OPgi9zNQPzIq/dR0WepCBVJIV4kDsmgytldh7Q/TZO0JVYUEKIRp2Gv8sHZTg0cnULj4Gncti7+PgHiVjowfNmS1LT+pXejQ2N/ku0oN2/RD2++N+Egl3Zxrqwcb8YSYRK1ABp1jDTlakMCIPGYGMhft6hdfxRqa9C+U6lKmukzn5se35tTv/hmQxag+96phiX7ugSPanhdGHYTGKwTNg=
   file: ./Tubehead-darwin-x64.zip
   on:
-    repo: makotot/Tubehead
+    repo: Tubehead/Tubehead
     all_branches: true
     tags: true
