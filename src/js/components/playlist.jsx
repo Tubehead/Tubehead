@@ -11,6 +11,12 @@ import { SearchHistoryAction } from '../actions/search-history-action'
 
 export class PlayList extends React.Component {
 
+  static get defaultProps () {
+    return {
+      affixPos: 60
+    }
+  }
+
   constructor (props) {
     super(props)
 
@@ -131,8 +137,4 @@ export class PlayList extends React.Component {
       </div>
     )
   }
-}
-
-PlayList.defaultProps = {
-  affixPos: 60
 }

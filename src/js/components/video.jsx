@@ -9,6 +9,13 @@ import { PlayListAction } from '../actions/playlist-action'
 
 export class Video extends React.Component {
 
+  static get defaultProps () {
+    return {
+      autoPlay: 1,
+      affixPos: 60
+    }
+  }
+
   constructor (props) {
     super(props)
 
@@ -82,9 +89,4 @@ export class Video extends React.Component {
       </div>
     )
   }
-}
-
-Video.defaultProps = {
-  autoPlay: 1,
-  affixPos: 60
 }
