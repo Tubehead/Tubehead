@@ -1,8 +1,8 @@
 # Tubehead
 
-[![travis](http://img.shields.io/travis/Tubehead/Tubehead.svg?style=flat-square)](https://travis-ci.org/makotot/Tubehead)
-[![dependencies](http://img.shields.io/david/Tubehead/Tubehead.svg?style=flat-square)](https://github.com/makotot/Tubehead)
-[![devDependencies](http://img.shields.io/david/dev/Tubehead/Tubehead.svg?style=flat-square)](https://github.com/makotot/Tubehead)
+[![travis](http://img.shields.io/travis/Tubehead/Tubehead.svg?style=flat-square)](https://travis-ci.org/Tubehead/Tubehead)
+[![dependencies](http://img.shields.io/david/Tubehead/Tubehead.svg?style=flat-square)](https://github.com/Tubehead/Tubehead)
+[![devDependencies](http://img.shields.io/david/dev/Tubehead/Tubehead.svg?style=flat-square)](https://github.com/Tubehead/Tubehead)
 
 > YouTube music player as OSX app hardly inspired by [musictonic](http://musictonic.com/)
 
