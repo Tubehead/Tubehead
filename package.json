@@ -12,6 +12,10 @@
   },
   "author": "makotot",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tubehead/Tubehead.git"
+  },
   "dependencies": {
     "babel-core": "^6.4.5",
     "express": "^4.13.4",
