@@ -1,8 +1,8 @@
 # Tubehead
 
 [![travis](http://img.shields.io/travis/Tubehead/Tubehead.svg?style=flat-square)](https://travis-ci.org/Tubehead/Tubehead)
-[![dependencies](http://img.shields.io/david/Tubehead/Tubehead.svg?style=flat-square)](https://github.com/Tubehead/Tubehead)
-[![devDependencies](http://img.shields.io/david/dev/Tubehead/Tubehead.svg?style=flat-square)](https://github.com/Tubehead/Tubehead)
+[![dependencies](http://img.shields.io/david/Tubehead/Tubehead.svg?style=flat-square)][githubURL]
+[![devDependencies](http://img.shields.io/david/dev/Tubehead/Tubehead.svg?style=flat-square)][githubURL]
 
 > YouTube music player as OSX app hardly inspired by [musictonic](http://musictonic.com/)
 
@@ -26,3 +26,6 @@ $ npm run start
 ## License
 
 MIT
+
+
+[githubURL]:  https://github.com/Tubehead/Tubehead
