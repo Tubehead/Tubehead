@@ -29,6 +29,7 @@ gulp.task('style', function () {
     .pipe(sass())
     .pipe(postcss([
       require('stylelint')(),
+      require('postcss-calc')(),
       require('rucksack-css')(),
       require('cssnano')(),
       require('postcss-reporter')()
