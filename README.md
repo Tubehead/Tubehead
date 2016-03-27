@@ -20,7 +20,7 @@ Latest version of this app for osx can download from [here](https://github.com/T
 
 ```sh
 $ npm install
-$ npm run start
+$ npm start
 ```
 
 ## License
