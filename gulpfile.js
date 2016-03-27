@@ -113,6 +113,7 @@ gulp.task('package', ['build'], function (done) {
       'node_modules/del',
       'node_modules/electron-debug',
       'node_modules/electron-connect',
+      'node_modules/electron-prebuilt',
       'node_modules/eslint-config-makotot',
       'node_modules/eslint-plugin-react',
       'node_modules/gulp',
